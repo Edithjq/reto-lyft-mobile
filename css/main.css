@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+/*---------------GENERAL--------------*/
+.fondo{
+/*	width: 100vw;
+	background-image: url(../assets/img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;*/
+	 background: linear-gradient(to top,aqua, blue)
+
+}
+.container-flex-column{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+/*-------------INDEX--------------*/
+.logo{
+	/*outline: 2px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+
+.logo img{
+	/*width: 80%;*/
+	border-radius: 50%;
+
+}
+
+.vh100{
+	height: 100vh;
+}
+
+/*-----------PRINCIPAL--------------*/
+
+input{
+	padding: 0.2em;
+}
+
+/*----------------SIGNUP-----------------*/
+/*.imagenes{
+	display: flex;
+	flex-direction: column;
+	outline: 1px  solid red;
+}
+.responsive{
+	width: 50%;
+	outline: 1px solid green;
+}*/
