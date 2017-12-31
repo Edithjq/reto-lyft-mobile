@@ -8,23 +8,34 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<title>Pagina principal</title>
 </head>
-<body class="fondo">	
+<body class="fondo">
 	<div class="container-flex-column vh100">
 		<div class="container-fluid">
 			<div class="row">
-				 <div class="col-lg-6">
+				<h1 class="text-center">sign up</h1>
+				<h2 class="text-center">Join now for free ride credit</h2>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				 <div class="col-xs-offset-1 col-xs-10">
 				    <div class="input-group">
 				      <div class="input-group-btn">
-				        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
-				        <div class="dropdown-menu">
-				          <div value="1"><a href="#">Action</a></div>
-				          <div value="2"><a href="#">Another action</a></div>
-				          <div value="3"><a href="#">Something else here</a></div>
-				          <div value="4"><a href="#">Separated link</a></div>
-				        </div>
-				      </div><!-- /btn-group -->
-				      <input type="text" class="form-control" aria-label="...">
+				        <button id="select" type="button" class=" color btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Pais<span id ="select" class="caret"></span></button>
+				        <ul class="dropdown-menu">
+				          <li id="1"><a href="#"><img  id="peru" src="../assets/img/peru.png" width="60" height="40"></a></li>
+				          <li id="2"><a href="#"><img id="mexico" src="../assets/img/mexico.png" width="60" height="40"></a></li>
+				          <li id="3"><a href="#"><img id="ecuador" src="../assets/img/ecuador.png" width="60" height="40"></a></li>
+				          <li id="4"><a href="#"><img id="usa" src="../assets/img/usa.jpg" width="60" height="40"></a></li>
+				        </ul>
+				      </div>
+				     <!--  <! /btn-group -->
+				      <input type="text" id="telef" class="form-control" aria-label="..."> 
 				    </div><!-- /input-group -->
+				    <br>
+				    <br>
+				    <button type="button" class="btn btn-default btn-lg btn-block" disabled>NEXT</button>
+
 				</div>
 			</div>
 		</div>
