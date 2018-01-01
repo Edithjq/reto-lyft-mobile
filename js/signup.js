@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$("ul #3").on("click", function(event){
 		$("#ecuador").appendTo($button);
 	});
-
+  
 	$("ul #4").on("click", function(event){
 		$("#usa").appendTo($button);
 	});
