@@ -32,7 +32,6 @@ $(document).ready(function(){
 		// $option.appendTo($button);
 		console.log($(this).val()); 
 		// this.off("click");
-	// if(){}
 	});
 
 	
