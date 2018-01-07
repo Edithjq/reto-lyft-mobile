@@ -1,26 +1,61 @@
 $(document).ready(function(){
 	var $button = $("#select");
 	var $passWord = $("#telef");
-	console.log($button);
+	var $img = $("img")
 	
+
+	// var ruta = "assets/img/"
+// $button.attr(ruta + objetos.pais[0].src);
+$("ul").on("click", "li a img", function(event){
+
+console.log($(this));
+var bandera = $(this);
+$button.prepend(bandera);
+// $button.atrr("id", $bandera);
+// $button.(bandera);
+
+ // if($button.find("#peru").length){
+ //            $("#mexico").hide($button);
+ //            $("#ecuador").hide($button);
+ //            $("#usa").hide($button);
+ //        }else{
+ //            alert('No existe');
+ //        }
+
+ }); 
+
+
+
+
 	// segun la elemento seleccionado se agrega  la img al button
-	$("ul #1").on("click", function(event){
-		$("#peru").appendTo($button);
-	});
+	// $("ul #1").on("click", function(event){
+	// 	$("#peru").appendTo($button);
+	// 	$("#usa").fadeout($button);
+	// });
 
-	$("ul #2").on("click", function(event){
-		$("#mexico").appendTo($button);
+	// $("ul #2").on("click", function(event){
+	// 	$("#mexico").appendTo($button);
 
-	});
+	// });
 
-	$("ul #3").on("click", function(event){
-		$("#ecuador").appendTo($button);
-	});
+	// $("ul #3").on("click", function(event){
+	// 	$("#ecuador").appendTo($button);
+	// });
   
-	$("ul #4").on("click", function(event){
-		$("#usa").appendTo($button);
-	});
+	// $("ul #4").on("click", function(event){
+	// 	$("#usa").appendTo($button);
+	// });
 	
+
+
+
+
+
+
+
+
+
+
 	// $("#lista li").on("click", function(event){
 	// 	event.isDefaultPrevented();
 
@@ -30,13 +65,10 @@ $(document).ready(function(){
 			// $(this).remove();
 		// }   
 		// $option.appendTo($button);
-		console.log($(this).val()); 
-		// this.off("click");
-	});
-
 	
-
-
+		// this.off("click");
+	
+});
 
 // 	var $validePassword = false;
 
